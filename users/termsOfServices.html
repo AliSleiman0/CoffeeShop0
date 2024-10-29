@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Ali's Coffee Shop</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff; /* Blue color */
+            font-weight: bold;
+        }
+        p {
+            color: #333; /* Dark gray color */
+        }
+        .btn-go-back {
+            background-color: #007bff; /* Blue color */
+            border: none;
+            color: #fff; /* White color */
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .btn-go-back:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ali's Coffee Shop</a>
+    </div>
+</nav>
+
+<!-- Terms of Service Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <h1>Terms of Service</h1>
+            <p>Welcome to Ali's Coffee Shop! These terms and conditions outline the rules and regulations for the use of our website.</p>
+            
+            <h3>1. Acceptance of Terms</h3>
+            <p>By accessing this website, you agree to be bound by these terms and conditions.</p>
+            
+            <h3>2. Use License</h3>
+            <p>Permission is granted to temporarily download one copy of the materials on Ali's Coffee Shop's website for personal, non-commercial transitory viewing only.</p>
+            
+            <h3>3. User Content</h3>
+            <p>By submitting content to our website, you grant us the right to use, reproduce, adapt, publish, translate and distribute it.</p>
+            
+            <h3>4. Limitations</h3>
+            <p>In no event shall Ali's Coffee Shop or its suppliers be liable for any damages arising out of the use or inability to use the materials on our website.</p>
+            
+            <!-- Add more sections as needed -->
+            
+            <!-- Go Back Button -->
+            <button class="btn btn-go-back mt-4" onclick="goBack()"><i class="fas fa-arrow-left mr-2"></i>Go Back</button>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white mt-5">
+    <div class="container text-center">
+        &copy; 2024 Ali's Coffee Shop. All rights reserved.
+    </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Go Back Function -->
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+</body>
+</html>
